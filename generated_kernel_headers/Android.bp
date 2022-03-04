@@ -1,0 +1,9 @@
+cc_library_headers {
+    name: "generated_kernel_headers",
+    export_include_dirs: [
+        "usr/audio/include/uapi",
+        "usr/include",
+    ],
+    vendor_available: true,
+    recovery_available: true,
+}
